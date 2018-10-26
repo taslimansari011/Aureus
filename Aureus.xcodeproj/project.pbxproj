@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CFE4D6217C625C00775106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4D5217C625C00775106 /* AppDelegate.swift */; };
+		24CFE4DB217C625C00775106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CFE4D9217C625C00775106 /* Main.storyboard */; };
+		24CFE4DD217C625D00775106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CFE4DC217C625D00775106 /* Assets.xcassets */; };
+		24CFE4E0217C625D00775106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CFE4DE217C625D00775106 /* LaunchScreen.storyboard */; };
+		24CFE4EC217C62E700775106 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4E8217C62E700775106 /* Constants.swift */; };
+		24CFE4ED217C62E700775106 /* RSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4E9217C62E700775106 /* RSPickerView.swift */; };
+		24CFE4EE217C62E700775106 /* RSDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4EA217C62E700775106 /* RSDatePicker.swift */; };
+		24CFE4EF217C62E700775106 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4EB217C62E700775106 /* SharedClass.swift */; };
+		24CFE4F5217C634200775106 /* EventsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 24CFE4F4217C634200775106 /* EventsData.json */; };
+		24CFE4F8217C635000775106 /* GlobalEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4F7217C635000775106 /* GlobalEnums.swift */; };
+		24CFE4FC217C635900775106 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4FA217C635900775106 /* UIColorExtension.swift */; };
+		24CFE4FD217C635900775106 /* UIViewController_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4FB217C635900775106 /* UIViewController_Extension.swift */; };
+		24CFE502217C636100775106 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE4FF217C636100775106 /* Appointment.swift */; };
+		24CFE503217C636100775106 /* ServiceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE500217C636100775106 /* ServiceKeys.swift */; };
+		24CFE504217C636100775106 /* EventOrganizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE501217C636100775106 /* EventOrganizer.swift */; };
+		24CFE512217C636800775106 /* EditEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE507217C636800775106 /* EditEventViewController.swift */; };
+		24CFE513217C636800775106 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE509217C636800775106 /* BaseViewController.swift */; };
+		24CFE514217C636800775106 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE50B217C636800775106 /* ProfileViewController.swift */; };
+		24CFE515217C636800775106 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE50D217C636800775106 /* CalendarViewController.swift */; };
+		24CFE516217C636800775106 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE50F217C636800775106 /* ParentViewController.swift */; };
+		24CFE517217C636800775106 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE511217C636800775106 /* LoginViewController.swift */; };
+		24CFE519217C636F00775106 /* TabySegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CFE518217C636F00775106 /* TabySegmentedControl.swift */; };
+		D28A7D96217DABAC00ADE6B0 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A7D95217DABAC00ADE6B0 /* CommonButton.swift */; };
+		E8EC57490041233B124F50F8 /* Pods_Aureus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7A7C3DDE590FE7025F54081 /* Pods_Aureus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24CFE4D2217C625C00775106 /* Aureus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aureus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CFE4D5217C625C00775106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24CFE4DA217C625C00775106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CFE4DC217C625D00775106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CFE4DF217C625D00775106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24CFE4E1217C625D00775106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CFE4E8217C62E700775106 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24CFE4E9217C62E700775106 /* RSPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSPickerView.swift; sourceTree = "<group>"; };
+		24CFE4EA217C62E700775106 /* RSDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSDatePicker.swift; sourceTree = "<group>"; };
+		24CFE4EB217C62E700775106 /* SharedClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+		24CFE4F3217C634200775106 /* Aureus-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Aureus-Bridging-Header.h"; sourceTree = "<group>"; };
+		24CFE4F4217C634200775106 /* EventsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EventsData.json; sourceTree = "<group>"; };
+		24CFE4F7217C635000775106 /* GlobalEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalEnums.swift; sourceTree = "<group>"; };
+		24CFE4FA217C635900775106 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		24CFE4FB217C635900775106 /* UIViewController_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController_Extension.swift; sourceTree = "<group>"; };
+		24CFE4FF217C636100775106 /* Appointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		24CFE500217C636100775106 /* ServiceKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceKeys.swift; sourceTree = "<group>"; };
+		24CFE501217C636100775106 /* EventOrganizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventOrganizer.swift; sourceTree = "<group>"; };
+		24CFE507217C636800775106 /* EditEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEventViewController.swift; sourceTree = "<group>"; };
+		24CFE509217C636800775106 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		24CFE50B217C636800775106 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		24CFE50D217C636800775106 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		24CFE50F217C636800775106 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		24CFE511217C636800775106 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24CFE518217C636F00775106 /* TabySegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabySegmentedControl.swift; sourceTree = "<group>"; };
+		466E7BD6E0F623D5CFEA8CE1 /* Pods-Aureus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aureus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aureus/Pods-Aureus.release.xcconfig"; sourceTree = "<group>"; };
+		C7A7C3DDE590FE7025F54081 /* Pods_Aureus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aureus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28A7D95217DABAC00ADE6B0 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		D9A0F6067FF16323B410A299 /* Pods-Aureus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aureus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aureus/Pods-Aureus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CFE4CF217C625C00775106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EC57490041233B124F50F8 /* Pods_Aureus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CFE4C9217C625C00775106 = {
+			isa = PBXGroup;
+			children = (
+				24CFE4D4217C625C00775106 /* Aureus */,
+				24CFE4D3217C625C00775106 /* Products */,
+				5D66DF9914F91C0D64AF3FDD /* Pods */,
+				C534787338C17756E9A21654 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24CFE4D3217C625C00775106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE4D2217C625C00775106 /* Aureus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CFE4D4217C625C00775106 /* Aureus */ = {
+			isa = PBXGroup;
+			children = (
+				D28A7D94217DAB9400ADE6B0 /* Common */,
+				24CFE4F2217C633600775106 /* Resources */,
+				24CFE4F6217C635000775106 /* GlobalEnums */,
+				24CFE4F9217C635900775106 /* Extensions */,
+				24CFE4FE217C636100775106 /* Model */,
+				24CFE4E7217C62E700775106 /* Utilites */,
+				24CFE505217C636800775106 /* Controllers */,
+				24CFE4D5217C625C00775106 /* AppDelegate.swift */,
+				24CFE4D9217C625C00775106 /* Main.storyboard */,
+				24CFE4DC217C625D00775106 /* Assets.xcassets */,
+				24CFE4DE217C625D00775106 /* LaunchScreen.storyboard */,
+			);
+			path = Aureus;
+			sourceTree = "<group>";
+		};
+		24CFE4E7217C62E700775106 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE4E8217C62E700775106 /* Constants.swift */,
+				24CFE4E9217C62E700775106 /* RSPickerView.swift */,
+				24CFE4EA217C62E700775106 /* RSDatePicker.swift */,
+				24CFE4EB217C62E700775106 /* SharedClass.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		24CFE4F2217C633600775106 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE4E1217C625D00775106 /* Info.plist */,
+				24CFE4F3217C634200775106 /* Aureus-Bridging-Header.h */,
+				24CFE4F4217C634200775106 /* EventsData.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		24CFE4F6217C635000775106 /* GlobalEnums */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE4F7217C635000775106 /* GlobalEnums.swift */,
+			);
+			path = GlobalEnums;
+			sourceTree = "<group>";
+		};
+		24CFE4F9217C635900775106 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE4FA217C635900775106 /* UIColorExtension.swift */,
+				24CFE4FB217C635900775106 /* UIViewController_Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		24CFE4FE217C636100775106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE4FF217C636100775106 /* Appointment.swift */,
+				24CFE500217C636100775106 /* ServiceKeys.swift */,
+				24CFE501217C636100775106 /* EventOrganizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24CFE505217C636800775106 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE518217C636F00775106 /* TabySegmentedControl.swift */,
+				24CFE506217C636800775106 /* EditEventViewController */,
+				24CFE508217C636800775106 /* BaseViewController */,
+				24CFE50A217C636800775106 /* ProfileViewController */,
+				24CFE50C217C636800775106 /* CalenderViewController */,
+				24CFE50E217C636800775106 /* ParentViewController */,
+				24CFE510217C636800775106 /* LoginViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24CFE506217C636800775106 /* EditEventViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE507217C636800775106 /* EditEventViewController.swift */,
+			);
+			path = EditEventViewController;
+			sourceTree = "<group>";
+		};
+		24CFE508217C636800775106 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE509217C636800775106 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		24CFE50A217C636800775106 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE50B217C636800775106 /* ProfileViewController.swift */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		24CFE50C217C636800775106 /* CalenderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE50D217C636800775106 /* CalendarViewController.swift */,
+			);
+			path = CalenderViewController;
+			sourceTree = "<group>";
+		};
+		24CFE50E217C636800775106 /* ParentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE50F217C636800775106 /* ParentViewController.swift */,
+			);
+			path = ParentViewController;
+			sourceTree = "<group>";
+		};
+		24CFE510217C636800775106 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				24CFE511217C636800775106 /* LoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		5D66DF9914F91C0D64AF3FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9A0F6067FF16323B410A299 /* Pods-Aureus.debug.xcconfig */,
+				466E7BD6E0F623D5CFEA8CE1 /* Pods-Aureus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C534787338C17756E9A21654 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7A7C3DDE590FE7025F54081 /* Pods_Aureus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28A7D94217DAB9400ADE6B0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D28A7D95217DABAC00ADE6B0 /* CommonButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CFE4D1217C625C00775106 /* Aureus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CFE4E4217C625D00775106 /* Build configuration list for PBXNativeTarget "Aureus" */;
+			buildPhases = (
+				61BAC8EFD7C6FFD9D0A686FD /* [CP] Check Pods Manifest.lock */,
+				24CFE4CE217C625C00775106 /* Sources */,
+				24CFE4CF217C625C00775106 /* Frameworks */,
+				24CFE4D0217C625C00775106 /* Resources */,
+				6D7A87EB0A6C41F108850BAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aureus;
+			productName = Aureus;
+			productReference = 24CFE4D2217C625C00775106 /* Aureus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CFE4CA217C625C00775106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					24CFE4D1217C625C00775106 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 24CFE4CD217C625C00775106 /* Build configuration list for PBXProject "Aureus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CFE4C9217C625C00775106;
+			productRefGroup = 24CFE4D3217C625C00775106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CFE4D1217C625C00775106 /* Aureus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CFE4D0217C625C00775106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CFE4E0217C625D00775106 /* LaunchScreen.storyboard in Resources */,
+				24CFE4DD217C625D00775106 /* Assets.xcassets in Resources */,
+				24CFE4F5217C634200775106 /* EventsData.json in Resources */,
+				24CFE4DB217C625C00775106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61BAC8EFD7C6FFD9D0A686FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aureus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D7A87EB0A6C41F108850BAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Aureus/Pods-Aureus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aureus/Pods-Aureus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CFE4CE217C625C00775106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CFE4EE217C62E700775106 /* RSDatePicker.swift in Sources */,
+				24CFE503217C636100775106 /* ServiceKeys.swift in Sources */,
+				24CFE519217C636F00775106 /* TabySegmentedControl.swift in Sources */,
+				24CFE515217C636800775106 /* CalendarViewController.swift in Sources */,
+				24CFE517217C636800775106 /* LoginViewController.swift in Sources */,
+				24CFE502217C636100775106 /* Appointment.swift in Sources */,
+				24CFE4D6217C625C00775106 /* AppDelegate.swift in Sources */,
+				24CFE513217C636800775106 /* BaseViewController.swift in Sources */,
+				24CFE514217C636800775106 /* ProfileViewController.swift in Sources */,
+				D28A7D96217DABAC00ADE6B0 /* CommonButton.swift in Sources */,
+				24CFE516217C636800775106 /* ParentViewController.swift in Sources */,
+				24CFE4EF217C62E700775106 /* SharedClass.swift in Sources */,
+				24CFE4FD217C635900775106 /* UIViewController_Extension.swift in Sources */,
+				24CFE504217C636100775106 /* EventOrganizer.swift in Sources */,
+				24CFE512217C636800775106 /* EditEventViewController.swift in Sources */,
+				24CFE4FC217C635900775106 /* UIColorExtension.swift in Sources */,
+				24CFE4F8217C635000775106 /* GlobalEnums.swift in Sources */,
+				24CFE4EC217C62E700775106 /* Constants.swift in Sources */,
+				24CFE4ED217C62E700775106 /* RSPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24CFE4D9217C625C00775106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CFE4DA217C625C00775106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24CFE4DE217C625D00775106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CFE4DF217C625D00775106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CFE4E2217C625D00775106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24CFE4E3217C625D00775106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CFE4E5217C625D00775106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A0F6067FF16323B410A299 /* Pods-Aureus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aureus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Aureus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24CFE4E6217C625D00775106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466E7BD6E0F623D5CFEA8CE1 /* Pods-Aureus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Aureus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Aureus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CFE4CD217C625C00775106 /* Build configuration list for PBXProject "Aureus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CFE4E2217C625D00775106 /* Debug */,
+				24CFE4E3217C625D00775106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CFE4E4217C625D00775106 /* Build configuration list for PBXNativeTarget "Aureus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CFE4E5217C625D00775106 /* Debug */,
+				24CFE4E6217C625D00775106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CFE4CA217C625C00775106 /* Project object */;
+}

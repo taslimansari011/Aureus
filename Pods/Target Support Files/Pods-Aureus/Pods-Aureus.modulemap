@@ -1,0 +1,6 @@
+framework module Pods_Aureus {
+  umbrella header "Pods-Aureus-umbrella.h"
+
+  export *
+  module * { export * }
+}
